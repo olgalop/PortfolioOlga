@@ -3,8 +3,6 @@
 
 [Ссылка для просмотра сайта](https://olgalop.github.io/PortfolioOlga/russian.html) на GitHub Pages.
 
-Макет бесплатный и взят из публичного доступа: [ссылка на макет.](https://www.figma.com/file/5D9pDuLtS042hzaoN69Kd7/Free-Landing-Page-Template?node-id=0%3A1)
-
 ## Какие технологии я использовала:
 
 * HTML
