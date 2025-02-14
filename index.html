@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./dist/css/style.css" />
         <script src="./src/js/navigation.js" defer></script>
-        <title>Olga Lopkareva</title>
+        <title>Ольга Лопкарева</title>
     </head>
     <body>
         <div class="intro container" id="intro">
@@ -20,12 +20,12 @@
                     <div id="popup-nav" style="display: none">
                         <nav class="nav">
                             <a href="#intro" class="nav__link current"
-                                >Home</a
+                                >Главная</a
                             >
-                            <a href="#about" class="nav__link">About Me</a>
-                            <a href="#skills" class="nav__link">Skills</a>
-                            <a href="#portfolio" class="nav__link">Portfolio</a>
-                            <a href="#contacts" class="nav__link">Contacts</a>
+                            <a href="#about" class="nav__link">Обо мне</a>
+                            <a href="#skills" class="nav__link">Навыки</a>
+                            <a href="#portfolio" class="nav__link">Портфолио</a>
+                            <a href="#contacts" class="nav__link">Контакты</a>
                         </nav>
                         <div class="popup-nav__column">
                             <button
@@ -37,7 +37,7 @@
                             </button>
                             <div class="lang lang--mobile">
                                 <a
-                                    class="lang__btn"
+                                    class="lang__btn current"
                                     href="russian.html"
                                     lang="ru"
                                     hreflang="ru"
@@ -45,7 +45,7 @@
                                 >
                                 <span>|</span>
                                 <a
-                                    class="lang__btn current"
+                                    class="lang__btn"
                                     href="index.html"
                                     lang="en"
                                     hreflang="en"
@@ -56,14 +56,14 @@
                     </div>
                 </header>
                 <div class="intro__info">
-                    <h1 class="intro__name">Olga Lopkareva</h1>
+                    <h1 class="intro__name">Ольга Лопкарева</h1>
                     <div class="intro__txt">
-                        <div>Junior UX | UI Designer</div>
-                        <div>23 years old, Perm</div>
+                        <div>Начинающий UX | UI дизайнер</div>
+                        <div>23 года, Пермь</div>
                     </div>
                     <div class="lang lang--desktop">
                         <a
-                            class="lang__btn"
+                            class="lang__btn current"
                             href="russian.html"
                             lang="ru"
                             hreflang="ru"
@@ -71,7 +71,7 @@
                         >
                         <span>|</span>
                         <a
-                            class="lang__btn current"
+                            class="lang__btn"
                             href="index.html"
                             lang="en"
                             hreflang="en"
@@ -85,25 +85,25 @@
         </div>
 
         <section class="section container section--grey about" id="about">
-            <h2 class="section__heading">About Me</h2>
+            <h2 class="section__heading">Обо мне</h2>
             <div class="about__txt">
                 <p>
-                    Hi, I'm Olga - a designer from Perm focusing on UX/UI and web.
-                    I'm passionate about design and everything related to it.
+                    Привет, я Ольга - дизайнер из Перми с упором на UX/UI и веб.
+                    Я интересуюсь дизайном и всем, что с ним связано.
                 </p>
                 <p>
-                    I'm studying at the "Graphic Design from Zero to Pro" course at
-                    SKILLFACTORY and learning on my own in my free time.
+                    Я обучаюсь на курсах "Графический дизайн с нуля до Pro" в
+                    SKILLFACTORY и самостоятельно в свободное время
                 </p>
                 <p>
-                    Ready to create amazing projects with great people.
+                    Готова создавать великолепные проекты с прекрасными людьми.
                 </p>
             </div>
         </section>
 
         <section class="section container skills" id="skills">
-            <h2 class="section__heading">Skills</h2>
-            <p class="skills__txt">I work with programs like</p>
+            <h2 class="section__heading">Навыки</h2>
+            <p class="skills__txt">Я работаю в таких программах как</p>
             <div class="programs">
                 <div class="program">
                     <img
@@ -203,23 +203,26 @@
             class="section section--grey container portfolio"
             id="portfolio"
         >
-            <h2 class="section__heading">Portfolio</h2>
+            <h2 class="section__heading">Портфолио</h2>
             <div class="portfolio__item">
                 <img
                     src="./src/assets/img/portfolio/asian-food.png"
                     alt=""
                     class="portfolio__img"
                 />
-                <div class="portfolio__link"
-                    >Korean Traditional Restaurant - Main Page</div>
+                <div href="#" class="portfolio__link"
+                    >Корейский традиционный ресторан - Главная страница</a
+                >
             </div>
             <div class="portfolio__item">
                 <img
-                    src="./src/assets/img/portfolio/reebok.jpg"
+                    src="./src/assets/img/portfolio/pett-yogg.png"
                     alt=""
                     class="portfolio__img"
                 />
-                <div class="portfolio__link">Reebok Store - Concept</div>
+                <div href="#" class="portfolio__link"
+                    >Студия йоги с щенятами - Концепция</a
+                >
             </div>
             <div class="portfolio__item">
                 <img
@@ -227,19 +230,35 @@
                     alt=""
                     class="portfolio__img"
                 />
-                <div class="portfolio__link"
-                    >Jazz Music Festival Poster</div>
+                <div href="#" class="portfolio__link"
+                    >Плакат музыкального фестиваля Джаза</a
+                >
             </div>
         </section>
         <section class="section container contacts" id="contacts">
-            <h2 class="section__heading">Contacts</h2>
+            <h2 class="section__heading">Контакты</h2>
             <div class="contacts__txt">
-                <p>Want to learn more or just chat?</p>
-                <p>I'm always glad to hear from you!</p>
+                <p>Хотите узнать больше или просто поговорить?</p>
+                <p>Я вам всегда рада!</p>
             </div>
             <a href="mailto:lopkareva01@mail.ru" class="contacts__message"
-                >Send a Message</a
+                >Отправить сообщение</a
             >
+            <div class="socials" style="justify-content: center !important">
+                <a href="https://www.behance.net/113a8d9f" style="margin-right: 10px;" class="socials__item"
+                    ><img src="./src/assets/img/socials/behance.svg" alt=""
+                /></a>
+                <a href="https://t.me/OkoloMore" style="margin-left: 10px;" class="socials__item"
+                    ><img style="width: 41px; height: 41px;" src="./src/assets/img/socials/telegram.png" alt=""
+                /></a>
+            </div>
+            <div class="contacts__links">
+                <p>Оцените мои работы на</p>
+                <p>
+                    <a href="https://www.behance.net/113a8d9f">Behance</a>
+                    <!-- <a href="">Dribble</a> -->
+                </p>
+            </div>
         </section>
     </body>
 </html>

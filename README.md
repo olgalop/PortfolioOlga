@@ -1,7 +1,7 @@
 # designer-portfolio
 Одностраничный двуязычный сайт-портфолио UX\UI дизайнера.
 
-[Ссылка для просмотра сайта](https://olgalop.github.io/PortfolioOlga/russian.html) на GitHub Pages.
+[Ссылка для просмотра сайта](https://olgalop.github.io/PortfolioOlga/index.html) на GitHub Pages.
 
 ## Какие технологии я использовала:
 
